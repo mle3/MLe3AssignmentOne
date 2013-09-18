@@ -64,7 +64,9 @@ public class Payment {
 		Payment.count = count;
 	}
 	public String toString(){
-		return "Credit Card: "+this.getCredCard()+"\r\n"+
+		return "\r\n"+
+				"\tCustomer Payment Information"+"\r\n"+
+				"Credit Card: "+this.getCredCard()+"\r\n"+
 				"Expiration Date: "+expDate+"\r\n"+
 				"Security Code: "+secCode+"\r\n"+
 				"Credit Card Type: "+type+"\r\n"+

@@ -14,7 +14,8 @@ public class Customer
 		this.setName(name);
 		this.setAccountNumber(accountNumber);
 		this.setEmail(email);
-		
+		this.setPhone(phone);
+		this.setAddress(address);
 		setCount(getCount() + 1);
 	}
 	public String getName() 
@@ -63,11 +64,13 @@ public class Customer
 	}
 	public String toString() 
 	{
-		return "\tCustomer: "+name+"\r\n"+
-				"\tAccount #: "+accountNumber+"\r\n"+
-				"\tEmail: "+email+"\r\n"+
-				"\tPhone: "+phone+"\r\n"+
-				"\tAddress: "+address;
+		return "\r\n"+
+				"\tCustomer Information"+"\r\n"+
+				"Customer: "+name+"\r\n"+
+				"Account #: "+accountNumber+"\r\n"+
+				"Email: "+email+"\r\n"+
+				"Phone: "+phone+"\r\n"+
+				"Address: "+address;
 	}
 	
 }

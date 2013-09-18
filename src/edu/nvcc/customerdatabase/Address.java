@@ -61,6 +61,8 @@ public class Address {
 	}
 
 	public String toString(){
-		return houseNum+" "+street+"\n"+city+" "+state+" "+zip;
+		return "\r\n"+
+				"\t"+houseNum+" "+street+"\n"+
+				"\t"+city+", "+state+" "+zip;
 	}
 }
