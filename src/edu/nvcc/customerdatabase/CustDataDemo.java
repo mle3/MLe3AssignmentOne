@@ -4,7 +4,7 @@ public class CustDataDemo {
 
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
+		// demoprogram
 		Address dudeAddress= new Address("123", "Sycamore St", "Faifax", "VA", "22031");
 		Customer dude= new Customer("Martin", "0123456", "hello@yahoo.com", "7039119112", dudeAddress);
 		Date dudeCardDate=new Date(1, 0, 14);

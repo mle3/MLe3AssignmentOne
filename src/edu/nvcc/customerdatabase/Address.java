@@ -3,7 +3,7 @@ package edu.nvcc.customerdatabase;
 public class Address {
 	private String houseNum, street, city, state, zip;
 	private static int count=0;
-	
+	//instance variables
 	public Address (String num, String street, String city, String state, String zip){
 		this.setHouseNum(num);
 		this.setStreet(street);

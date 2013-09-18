@@ -6,9 +6,9 @@ public class Customer
 	private String email;
 	private String phone;
 	private Address address;
-	
-	private static int count=0;
 	//instance variables
+	private static int count=0;
+	
 	public Customer(String name, String accountNumber, String email, String phone, Address address)
 	{
 		this.setName(name);

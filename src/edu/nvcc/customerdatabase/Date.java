@@ -3,7 +3,7 @@ package edu.nvcc.customerdatabase;
 public class Date {
 	private int month, day, year;
 	private static int count=0;
-	
+	//instance variables
 	public Date(int month, int day, int year){
 		this.setMonth(month);
 		this.setDay(day);

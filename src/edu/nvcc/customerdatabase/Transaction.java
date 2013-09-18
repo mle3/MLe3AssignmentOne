@@ -8,7 +8,7 @@ public class Transaction {
 	private String vendor, description;
 	private double amount;
 	private Payment paymentType;
-	
+	//instance variables
 	public Transaction (String transId, Date date, String vendor, String desc, double amount, Payment paymentType){
 		this.setTransId(transId);
 		this.setDate(date);

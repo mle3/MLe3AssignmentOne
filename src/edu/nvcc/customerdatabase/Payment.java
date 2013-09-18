@@ -6,7 +6,7 @@ public class Payment {
 	private String secCode, type;
 	private Address billing;
 	private static int count=0;
-	
+	//instance variables
 	public Payment(String credCard, Date expDate, String secCode, String type, Address billing){
 		this.setCredCard(credCard);
 		this.setExpDate(expDate);
